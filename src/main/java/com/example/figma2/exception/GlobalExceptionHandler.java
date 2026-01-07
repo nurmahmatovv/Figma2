@@ -1,5 +1,6 @@
 package com.example.figma2.exception;
 
+import com.example.figma2.payload.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +8,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import sfera.uz.stroypporg.peyload.ApiResponse;
+
 
 import java.util.HashMap;
 import java.util.Map;
