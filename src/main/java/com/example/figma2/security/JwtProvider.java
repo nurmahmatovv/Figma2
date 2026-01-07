@@ -1,12 +1,12 @@
 package com.example.figma2.security;
 
+import com.example.figma2.exception.JwtException;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.SignatureException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import com.example.figma2.exception.JwtException;
 
 import java.util.Date;
 

@@ -1,12 +1,13 @@
 package com.example.figma2.entity;
 
+import com.example.figma2.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import sfera.uz.stroypporg.entity.enums.Role;
-import sfera.uz.stroypporg.entity.tutorial.AbsEntity;
+
+
 
 import java.time.LocalDate;
 import java.util.Collection;
@@ -36,9 +37,9 @@ public class User extends AbsEntity implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-
-    @ManyToOne(cascade = CascadeType.ALL)
-    private Contact contact;
+//!  kamron bu class yuk
+//    @ManyToOne(cascade = CascadeType.ALL)
+//    private Contact contact;
 
     private boolean enabled;
 
