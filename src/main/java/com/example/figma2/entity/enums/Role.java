@@ -1,4 +1,4 @@
-package com.example.figma2.enums;
+package com.example.figma2.entity.enums;
 
 public enum Role {
     ROLE_USER,
