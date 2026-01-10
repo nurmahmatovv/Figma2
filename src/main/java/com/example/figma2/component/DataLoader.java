@@ -8,7 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import com.example.figma2.entity.User;
-import com.example.figma2.enums.Role;
+import com.example.figma2.entity.enums.Role;
 import com.example.figma2.repository.UserRepository;
 
 @Component

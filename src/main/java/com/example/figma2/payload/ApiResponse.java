@@ -1,7 +1,7 @@
 package com.example.figma2.payload;
 
 import lombok.*;
-import org.apache.hc.core5.http.HttpStatus;
+import org.springframework.http.HttpStatus;
 
 @Getter
 @Setter
